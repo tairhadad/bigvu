@@ -4,7 +4,6 @@ const chokidar = require('chokidar')
 const cors = require('cors')
 const https = require('https')
 const fileName = './presenters.json'
-const port = 8500
 
 const app = express()
 const router = express.Router()
@@ -48,5 +47,9 @@ chokidar.watch(fileName).on('change', () => {
   createServer()
   console.log('Reloading web service data complete.')
 })
+let port = process.env.PORT
+if (port == null || port == '') {
+  port = 8500
+}
 
 app.listen(port, () => console.log(`Web service running on port ${port}`))
