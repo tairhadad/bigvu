@@ -30,10 +30,10 @@ const ViewImageBonus = (props) => {
 
     const context = canvas.getContext('2d')
     const base_image = new Image()
-
     base_image.src = image
+
     base_image.onload = () => {
-      context.drawImage(base_image, 20, 20, 400, 320)
+      context.drawImage(base_image, 200, 0, 400, 320, 20, 20, 400, 320)
 
       drawText(props.displayText)
     }
@@ -90,7 +90,10 @@ const ViewImageBonus = (props) => {
       <div className="col-3"></div>
       <div className="col-6">
         <canvas
-          style={{ background: props.background, borderRadius: 10 }}
+          style={{
+            background: props.background,
+            borderRadius: 10,
+          }}
           id="myCanvas"
           width="640"
           height="360"

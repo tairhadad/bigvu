@@ -23,15 +23,23 @@
   box-shadow: 0 2px 8px black;
   z-index: 10;
 }
-.header-text {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+
 .text {
   font-family: 'Inter', sans-serif;
-  color: white;
+  color: #dbe6fd;
   font-size: 30px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 30px;
+}
+.text-white {
+  background-color: #47597e;
+}
+.text-blue {
+  border-color: #47597e;
+  color: #47597e;
+  background-color: #dbe6fd;
 }
 
 .select {

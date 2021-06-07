@@ -17,10 +17,10 @@ function Selector() {
           <div style={{ height: 100 }}>
             <div className="col-5 " />
             <div className="header" style={{ padding: 20 }}>
-              <NavLink className=" text" to="/white">
+              <NavLink className="text text-white" to="/white">
                 White
               </NavLink>
-              <NavLink className="m-4 text" to="/blue">
+              <NavLink className="m-4 text text-blue" to="/blue">
                 Blue
               </NavLink>
             </div>
