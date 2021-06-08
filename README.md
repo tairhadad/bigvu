@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 ## Author: Tair Hadad
+=======
+
+
+[![BIGVU.jpg](https://i.postimg.cc/bN80fdSm/BIGVU.jpg)](https://postimg.cc/qgb68JLK)
+# Getting Started with Create React App
+>>>>>>> fbbdbc895f9d24450b8452506ef5b72fa92eb43b
 
 
 
