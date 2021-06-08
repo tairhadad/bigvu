@@ -12,23 +12,26 @@ On the website, the user can:
 ## Local Development
 For run the project loccaly on your computer:
 
-
 ### Run the NODE server
 In a terminal (under your project root directory):
 
+```bash
 # Initial setup
-bash
 npm install
+```
+
+```bash
 # Start the server
-bash
 node server.js
+```
 
 ### Run the BIGVU Web UI
 
 In a separate terminal from the API server (also, under the project root directory):
 
+```bash
 # Start the UI:
-bash
 npm start
+```
 
 
