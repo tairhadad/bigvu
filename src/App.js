@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css'
-
 import Selector from './components/Selector'
 import { WhiteCanvas } from './components/WhiteCanvas'
 import BlueCanvas from './components/BlueCanvas'
