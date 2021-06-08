@@ -10,7 +10,7 @@ On the website, the user can:
 [![BIGVU.jpg](https://i.postimg.cc/bN80fdSm/BIGVU.jpg)](https://postimg.cc/qgb68JLK)
 
 ## Local Development
-For run the project loccaly on your computer:
+To run the project locally on your computer:
 
 ### Run the NODE server
 In a terminal (under your project root directory):
