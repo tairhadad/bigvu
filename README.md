@@ -1,6 +1,6 @@
 
 
-![] (https://i.postimg.cc/bN80fdSm/BIGVU.jpg)
+[![BIGVU.jpg](https://i.postimg.cc/bN80fdSm/BIGVU.jpg)](https://postimg.cc/qgb68JLK)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
