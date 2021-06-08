@@ -14,7 +14,7 @@ function Selector() {
     <div>
       <Router>
         <div>
-          <div style={{ height: 100 }}>
+          <div style={{ height: 140 }}>
             <div className="col-5 " />
             <div className="header" style={{ padding: 20 }}>
               <NavLink className="text text-white" to="/white">

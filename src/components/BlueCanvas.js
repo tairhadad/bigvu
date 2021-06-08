@@ -69,7 +69,7 @@ function BlueCanvas() {
             Bonus
           </option>
         </select>
-        <div>
+        <div style={{ padding: 70 }}>
           {selectedCanvas === 'bonus' ? (
             <ViewImageBonus
               background={background}

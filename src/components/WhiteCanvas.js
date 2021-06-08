@@ -68,7 +68,7 @@ export function WhiteCanvas() {
             Bonus
           </option>
         </select>
-        <div>
+        <div style={{ padding: 70 }}>
           {selectedCanvas === 'basic' ? (
             <ViewImageBasic
               background={background}
